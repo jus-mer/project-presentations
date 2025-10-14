@@ -56,7 +56,7 @@ rm(list = ls())
 ::: columns
 
 
-::: {.column width="20%"}
+::: {.column width="30%"}
 
 </br></br>
 
@@ -64,12 +64,10 @@ rm(list = ls())
 
 :::
 
-::: {.column .column-right width="80%"}
+::: {.column .column-right width="70%"}
 
 
-# **Justicia de mercado y merecimiento del bienestar social**
-
-## **Fondecyt Regular No. 1250518**
+# **Presentación de proyecto, diseño de encuesta y temas de seminaristas**
 
 ------------------------------------------------------------------------
 
@@ -79,9 +77,9 @@ rm(list = ls())
 
 ::: {.blue2 .medium}
 
-**^1^Departamento de Sociología, Universidad de Chile**
+**^1^Departamento de Sociología, UCH**
 
-**^2^Instituto de Sociología, Pontificia Universidad Católica de Chile**
+**^2^Instituto de Sociología, PUC**
 
 **^3^Centro de Estudios de Conflicto y Cohesión Social - COES**
 
@@ -95,18 +93,39 @@ Reunión con seminaristas y tesistas
 :::
 
 
-# Contexto y motivación {.xlarge data-background-color="#92220C"}
+# Contexto {.xlarge data-background-color="#92220C"}
 
-## Contexto y motivación
 
-::: {.fragment}
-<div style="text-align:center;">
-  <img src="images/corte.png" style="width:100%; max-width:none;">
-</div>
+
+## Proyecto
+
+::: {.columns}
+
+::: {.column width="30%"}
+
+![](images/jusmer_trans.png)
+
 :::
 
+::: {.column width="70%"}
+::: {.incremental .highlight-last style="font-size: 110%;"}
+- ANID/FONDECYT N°1250518 2025-2028 - Justicia de mercado y merecimiento del bienestar social
 
-## Antecedentes
+- Primera etapa:
+  * Estudios con datos secundarios comparados y nacionales
+  * Encuesta "Mercado, merecimiento y mérito"
+ 
+- Segunda etapa:
+  * Estudios con análisis de experimento de encuesta
+  * Análisis discusiones legislativas pensiones
+  
+- Más información: [jc-castillo.com/project/fondecyt-jusmer/](jc-castillo.com/project/fondecyt-jusmer/)
+
+:::
+:::
+:::
+
+## Contexto 
 
 ::: {.box-inv-4 .sp-after .fragment style="font-size: 110%;"}
 
@@ -116,14 +135,14 @@ Reunión con seminaristas y tesistas
 
 ::: {.box-inv-4 .sp-after .fragment style="font-size: 110%;"}
 
-2) En AL y Chile, modificaron la arquitectura de las instituciones del bienestar expandiendo lógica de mercado [@ferre_welfare_2023; @madariaga_three_2020]
+2) Cambios en la arquitectura de las instituciones del bienestar social; expansión del mercado [@ferre_welfare_2023; @busemeyer_welfare_2020]
 
 :::
 
 
 ::: {.box-inv-4 .sp-after .fragment style="font-size: 110%;"}
 
-3) Este orden económico se refleja en una economía moral específica [@mau_inequality_2015; @svallforsMoralEconomyClass2006a]
+3) Este orden económico se refleja en una economía moral específica/policy-feedback effects [@mau_inequality_2015; @campbell_institutional_2020; @fernandez_positive_2013] 
 
 :::
 
@@ -134,194 +153,159 @@ Preferencias por justicia de mercado [@busemeyer_skills_2014; @castillo_percepti
 :::
 
 
+## Contexto chileno
+
+::: {.incremental .highlight-last style="font-size: 120%;"}
+- Profunda privatización y comodificación de áreas de reproducción social con fuerte dependencia Estatal [@madariaga_three_2020; @boccardo_30_2020]
+- Crecimiento con elevada desigualdad y bajo gasto social [@llorca-jana_historia_2021; @flores_top_2020]
+- Malestar por desigualdad en acceso y provisión de servicios sociales [@pnud_desiguales_2017], y conflictividad social [@somma_no_2021] y
+- Consecuencias del neoliberalismo en las subjetividades [@canalesceron_sujeto_2021;@araujo_hilos_2019]
+- Justicia distributiva y actitudes hacia la desigualdad [@atria_economic_2020;@castillo_legitimacy_2011;@castillo_meritocracia_2019; @mac-clure_justicia_2024; @otero_power_2024]
+:::
+
+
+## Este proyecto
+
+</br>
+
+::: {.pull-left .box-inv-5 .sp-after .fragment style="font-size: 125%;"}
+
+Abordar sistemáticamente las preferencias por criterios de mercado en salud, pensiones y educación, sus determinantes y cómo han cambiado en el tiempo en Chile
+
+
+:::
+
+</br></br>
+
+::: {.pull-right .box-inv-5 .sp-after .fragment style="font-size: 125%;"}
+
+Las preferencias por justicia de mercado se asocian a criterios de merecimiento fuertemente arraigados en la población
+
+:::
+
+
+#  {data-background-color="#92220C"}
+
+:::: {.incremental style="font-size: 140%;"}
+
+**Objetivo**: Analizar en Chile (y en perspectiva comparada) el nivel y la evolución de las preferencias por justicia de mercado en las últimas dos décadas y su vínculo con criterios de merecimiento del bienestar
+
+**Argumento**: El alto grado de comodificación del bienestar en Chile habría reforzado normas meritocráticas (especialmente el énfasis en el esfuerzo), elevando el apoyo a la justicia de mercado frente a países con menor comodificación
+
+::::
+
+## Objetivos específicos
+
+::: {.incremental .highlight-last style="font-size: 110%;"}
+
+1. Analizar la asociación entre criterios de merecimiento y preferencias por justicia de mercado
+
+2. Estimar en qué medida el estatus socioeconómico se vincula con dichas preferencias
+
+3. Examinar el efecto de variables socio-estructurales (edad, género) sobre esas preferencias
+
+4. Indagar cómo percepciones/creencias sobre la desigualdad se asocian a la justicia de mercado
+
+5. Evaluar el rol moderador de estatus (objetivo y subjetivo) y factores socio-estructurales en la relación merecimiento → justicia de mercado
+6. Analizar la asociación entre desigualdad contextual a nivel país y preferencias por justicia de mercado
+
+7. Explorar el rol moderador de factores contextuales de país en la relación merecimiento → justicia de mercado
+
+:::
+
+# Antecedentes {.xlarge data-background-color="#92220C"}
 
 ## Preferencias por justicia de mercado
 
 ::: {.incremental .highlight-last style="font-size: 120%;"}
 
-- Lane [-@lane_market_1986]: justicia de mercado vs. justicia política
+- Lane [-@lane_market_1986]: market justice vs. political justice
+
+- "Bringing the market in" [@lindh_bringing_2023] 
 
 - Creencias normativas que legitiman la idea de que el acceso a los servicios sociales esenciales —como la salud, la educación o las pensiones— debe determinarse según criterios basados en el mercado [@lindh_public_2015, p.895]
 
 - Medición: evaluar si las personas consideran justo que el acceso a dichos servicios dependa de los ingresos [@lindh_public_2015; @kluegel_legitimation_1999; @castillo_perceptions_2025]
 
-
-:::
-
-::: {.box-inv-5 .sp-after .fragment style="font-size: 120%;"}
-
-Preferencias por la comodificación de servicios
-
 :::
 
 
-## Contexto chileno
-
-::: {.incremental .highlight-last style="font-size: 120%;"}
-
-- Crecimiento con elevada desigualdad [@llorca-jana_historia_2021; @flores_top_2020]
-- Rigida movilidad relativa y fuerte clausura cúspide [@lopez-roldan_comparative_2021; @torche_intergenerational_2014]
-- Profunda privatización y comodificación de áreas de reproducción social con fuerte dependencia Estatal [@madariaga_three_2020; @boccardo_30_2020]
-- Pensiones: sistema de **capitalización individual** administrado por **AFPs**; cubre ~11 millones de cotizantes, pero **27% de la fuerza laboral** queda fuera por **informalidad** [@superintendenciadepensiones_estadisticas_2024]
-- Conflictividad social previsional [@somma_no_2021; @nucleodesociologiacontingente_informe_2020] y legitimidad del sistema ("con mi plata no") [@castillo_perceptions_2025; @canalesceron_sujeto_2021; @panes_criticas_2020]
-:::
-
-
-## Preferencias por la comodificación de servicios
-
-
+## Preferencias por justicia de mercado
 ::::: columns
 ::: {.column width="50%" .incremental .highlight-last style="font-size: 110%;"}
-
 ### Contextual
-
 - Gasto social [@immergut_it_2020; @busemeyer_skills_2014; @busemeyer_welfare_2020]
 - Desigualdad económica [@koos_moral_2019]
 - Nivel de privatización de servicios y regulación del mercado [@lindh_public_2015; @koos_moral_2019]
-
 :::
-
 ::: {.column width="50%" .incremental .highlight-last style="font-size: 110%;"}
-
 ### Individual
-
-- Estatus socioeconómico -ingresos, educación y ocupación- [@lindh_public_2015; @koos_moral_2019; @busemeyer_welfare_2020; @svallfors_political_2007]
-- Percepciones sobre la desigualdad y meritocracia [@castillo_perceptions_2025]
+- Estatus socioeconómico -ingresos, educación y ocupación- [@lindh_public_2015; @koos_moral_2019; @busemeyer_welfare_2020; @svallfors_political_2007, @otero_power_2024]
+- Percepciones sobre la desigualdad y meritocracia [@castillo_perceptions_2025; @castillo_socialization_2024]
 - Conservadurismo/liberalismo económico [@lee_fairness_2023]
-
 :::
 :::::
 
-## Preferencias por la comodificación de servicios: Chile
 
-::: {.incremental .highlight-last style="font-size: 110%;"}
-
-1. @otero_power_2024 proveen evidencia sobre:
-          
-   * Personas en posiciones sociales bajas/subordinadas muestran menor apoyo a la justicia de mercado que aquellas en posiciones altas/privilegiadas.
-
-2. @castillo_perceptions_2025 encuentran que:
-        
-   * La percepción de la desigualdad económica reduce el apoyo a la justicia de mercado.
-   * Las percepciones meritocráticas (esfuerzo) aumenta el respaldo a la justicia de mercado.
-:::
-
-::: {.fragment style="font-size: 120%;"}
-**Sin embargo...**
-:::
-
-## Este estudio
-
-</br>
-
-::: {.pull-left .box-inv-5 .sp-after .fragment style="font-size: 120%;"}
-
-El movimiento entre posiciones sociales expone a los individuos a condiciones y experiencias que afectan sus nociones de justicia distributiva [@alesina_intergenerational_2018; @ares_changing_2020; @gugushvili_subjective_2017; @day_movin_2017]
-
-:::
-
-</br></br></br></br>
-
-::: {.pull-right .box-inv-5 .sp-after .fragment style="font-size: 120%;"}
-
-¿Cómo? Movilidad ascendente refuerza ver al mercado como asignador justo, la descendente lo cuestiona. La meritocracia es un canal cognitivo para ese proceso [@mau_inequality_2015; @gugushvili_intergenerational_2016].
-
-:::
-
-#  {data-background-color="#523870"}
-
-:::: {style="font-size: 170%;"}
-
-**_(1) ¿Cómo la movilidad social intergeneracional afecta las preferencias por la comodificación de las pensiones en Chile?_**
-
-**_(2) ¿En qué medida las creencias meritocráticas condicionan esta relación?_**
-
-::::
-
-## Movilidad social
+## Merecimiento
 
 ::: {.incremental .highlight-last style="font-size: 120%;"}
 
-- Preferencias redistributivas [@alesina_intergenerational_2018; @ares_changing_2020; @schmidt_experience_2011; @breen_effects_2024]
-- Legitimidad de la desigualdad económica [@gugushvili_intergenerational_2016], política social [@gugushvili_subjective_2017] y creencias sobre la desigualdad [@bucca_merit_2016; @day_movin_2017]
-- Diversos **mecanismos explicativos** [@helgason_class_2025]: 
-          
-    * self-interest (ej. intereses materiales, POUM)
-    * socialización (ej. aculturación, socialización valores, máximización estatus)
-    * **atribuciones** (ej. self-serving bias)
+- Merecimiento en bienestar: La universalidad no es la norma; el acceso suele ser condicional según quién “merece” qué y por qué
+
+- Evaluaciones que las personas realizan sobre si ciertos beneficios, castigos o reconocimientos son justamente merecidos o no [@oorschot_who_2000]
+
+- Marco CARIN: Cinco criterios para juzgar merecimiento: Control, Actitud, Reciprocidad, Identidad y Necesidad
+
+- Primacía del control/mérito: La responsabilidad individual (esfuerzo) suele pesar más que necesidad o reciprocidad al decidir quién merece apoyo
+
+- Implicación del proyecto: Evaluar cómo estos criterios—en especial control/mérito—se asocian con preferencias por justicia de mercado
 
 :::
-
-## El mecanismo del *self-serving bias*
-
-::: {.incremental style="font-size:120%;"}
-
-- Las personas ajustan sus **creencias sobre justicia** según cómo explican su posición social [@gugushvili_intergenerational_2016; @miller_selfserving_1975].  
-- Las experiencias de movilidad activan **procesos de atribución causal**:  
-  - **Interna** → éxito por esfuerzo → el mercado es justo.  
-  - **Externa** → fracaso por factores estructurales → el mercado es injusto.  
-- **Ascenso:** refuerza la creencia de que el mercado premia el mérito.  
-- **Descenso:** puede generar disonancia y cuestionar esa justicia.  
-
-:::
-
-
-
-## ¿Cómo?
-::: {.incremental .highlight-last style="font-size: 110%;"}
-- **No solo cambia intereses materiales**, también cambia **cómo las personas entienden la justicia** [@gugushvili_intergenerational_2016; @helgason_class_2025].
-- Al moverse, los individuos **recalibran sus creencias sobre la meritocracia** [@mijs_belief_2022a].
-- **Movilidad ascendente →** refuerza la creencia en un mercado justo (asignador legítimo de recompensas).
-- **Movilidad descendente →** desafía esa creencia (percepción de arbitrariedad o injusticia).  
-- La **meritocracia** filtra estas experiencias [@mau_inequality_2015]:  
-  - *Fuerte creencia en mérito →* mantiene la fe en la justicia del mercado (disonancia resuelta internamente).  
-  - *Débil creencia en mérito →* percibe el sistema como injusto (disonancia resuelta externamente).  
-:::
-
-
 
 ## Hipótesis
 
-::: {.incremental .highlight-last style="font-size: 120%;"}
-
-- **H1**: La movilidad ascendente refuerza las preferencias por comodificación de pensiones, mientras que la movilidad descendente las reduce.
-
-- **H2a.** El efecto positivo de la movilidad ascendente sobre el apoyo a la mercantilización es más fuerte entre las personas con creencias meritocráticas más sólidas.  
-→ *Self-serving bias*: el ascenso confirma que el sistema recompensa el esfuerzo.
-
-- **H2b.** El efecto negativo de la movilidad descendente sobre el apoyo a la mercantilización es más débil entre las personas con creencias meritocráticas más fuertes.  
-→ *Resolución de la disonancia*: los meritócratas internalizan la pérdida («mi culpa»), mientras que los no meritócratas la atribuyen al sistema («es injusto»).
-:::
-
-
-
-
-# Método {.xlarge data-background-color="#523870"}
-
-## Enfoque: Mobility Effects
-
-::::: columns
-::: {.column width="50%"}
 ::: {.fragment}
+<div style="text-align:center;">
+  <img src="images/hipo-jusmer.png" style="width:100%; max-width:none;">
+</div>
+
+:::
 
 
+# Metodología {.xlarge data-background-color="#92220C"}
 
-![](images/breen.png)
+## Líneas de trabajo
+
+::: {style="font-size: 100%;"}
+
+| Estudio                                   | Datos                                   | VD                   | VI                           | Método                       |
+|-------------------------------------------|-----------------------------------------|--------------------------------|---------------------------------------|------------------------------|
+| 1.Comparación internacional                 | ISSP 1987–2019 | Justicia de mercado educ/salud | Meritocracia, necesidad; macro (ineq) | Multinivel híbrido  |
+| 2.Cambio en Chile (1999–2019)               | ISSP–Chile 1999/2009/2019         | Justicia de mercado             | Todas        | Regresión ordinal (año=factor)|
+| 3.Mercado, merecimiento y mérito        | Encuesta online (n≈1.500)                | Justicia de mercado (varios dominios) | CARIN, neoliberalismo, meritocracia   | -      |
+| 4.Experimento distribucional (DSE)          | Módulo en MMM                           | Asignación entre 3 ámbitos      | Vignettes (L1) + CARIN (L2)           | Multinivel |
+| 5.Debate 6% pensiones | Actas de Congreso                       | Tipos/frecuencia de argumentos | CARIN; posición política              | CTA / topic modeling         |
+
+::: 
+
+## Líneas de trabajo en curso o terminados
+
+::: {style="font-size: 100%;"}
+
+| Estudio                                   | Datos                                   | VD                  | VI                           | Método                             |
+|-------------------------------------------|-----------------------------------------|--------------------------------|---------------------------------------|------------------------------------|
+| MJP meritocracia x desigualdad     | ELSOC                     | Justicia de mercado (índice)           | Meritocracia × desigualdad percibida  | Multinivel longitudinal       |
+| Merit–Factorial     | Encuesta EDUMER              | Escala meritocracia      | Cohorte/edad             | CFA e invarianza                 |
+| MJP: clase x meritocracia                 | ELSOC                    | Justicia de mercado en pensiones           | Clase x meritocracia percibida   | Multinivel longitudinal        |
+| MJP Mobility                     | ELSOC     | Justicia de mercado en pensiones    | Movilidad ↑/↓ y meritocracia           | Causal; IPW/WLS               |
+| LCA meritocracia escolar                  | Encuesta EDUMERCO             | Escala meritocracia | - | LCA   |
 
 :::
 
 
-:::
+# Planificación {.xlarge data-background-color="#92220C"}
 
-::: {.column width="50%" .incremental .highlight-last style="font-size: 100%;"}
-
-- @breen_effects_2024 proponen un método para estimar el efecto (causal) de la movilidad social intergernacional sobre un outcome
-- ¿En qué habría cambiado el resultado _Y_ entre las personas de origen _j_ que llegaron al destino _k_ si, hipotéticamente, hubieran llegado al destino _k'_? 
-
-
-
-:::
-:::::
 
 
 # Gracias por su atención! 
