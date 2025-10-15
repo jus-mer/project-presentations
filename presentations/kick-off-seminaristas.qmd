@@ -272,6 +272,15 @@ Las preferencias por justicia de mercado se asocian a criterios de merecimiento 
 
 :::
 
+## Contribución y proyecciones
+
+::: {.incremental .highlight-last style="font-size: 120%;"}
+
+1. Aproximación conceptual a la justicia de mercado desde el contexto chileno
+2. Analizar empíricamente las preferencias por justicia de mercado/mercantilización del bienestar en Chile desde la opinión pública mediante encuestas
+3. Efectos normativos de las instituciones del bienestar debido a la privatización y mercantilización y su relación con el merecimiento
+4. Posicionarse como una plataforma de investigación y difusión sobre justicia distributiva en Chile, en colaboración con otros centros, proyectos e investigadores (nacionales e internacionales)
+:::
 
 # Metodología {.xlarge data-background-color="#92220C"}
 
@@ -306,7 +315,78 @@ Las preferencias por justicia de mercado se asocian a criterios de merecimiento 
 
 # Planificación {.xlarge data-background-color="#92220C"}
 
+[link aquí](https://docs.google.com/spreadsheets/d/13u0dccNtzotxqF7GUoeDVcaf-OYhsG830AVJK4H2vw4/edit?usp=sharing)
 
+# Diseño encuesta _Mercado, merecimiento y mérito_ {.xlarge data-background-color="#92220C"}
+
+## Diseño encuesta
+
+::: {.incremental .highlight-last style="font-size: 120%;"}
+
+- **Objetivo**: contar con datos y mediciones de calidad de los constructos relevantes para los estudios del proyecto
+
+- **Diseño**:
+    
+    * Encuesta web transveral 
+    * Administración de entrevistas CAWI
+    * Aplicación será encargada a una empresa especialista (ej. Netquest). Sin programación del cuestionario, solo muestra
+    * Muestreo por cuotas (sexo, edad y nivel socioeconómico)
+    * N $\approx$ 3.000 casos
+    * Cuestionario de 30 minutos y 40 preguntas $\approx$
+
+:::
+
+## Ventajas y limitaciones diseño encuesta
+
+
+::::: columns
+::: {.column width="50%" .incremental .highlight-last style="font-size: 110%;"}
+### Ventajas
+- Escala y eficiencia/costos [@callegaro_web_2015; @biffignandi_handbook_2021]
+- Flexibilidad de diseño [@hohne_switching_2020]
+- Reduce sesgo del encuestador (especialmente en experimentos de encuesta) [@callegaro_web_2015]
+- Acceso/participación  [@biffignandi_handbook_2021]
+
+:::
+::: {.column width="50%" .incremental .highlight-last style="font-size: 110%;"}
+### Desventajas
+- Error de cobertura: penalización a grupos desventajados [@tourangeau_science_2013]
+- Sesgo de autoselección y consecuencias de incentivos [@smyth_internet_2011; @tourangeau_science_2013]
+- Problemas de no respuesta [@west_methods_2023]
+:::
+:::::
+
+
+## Diseño encuesta
+
+::: {style="font-size: 90%;"}
+
+| Módulo                  | Ítems clave                                       | Fuente |
+|-----------------------------------|---------------------------------------------------------------|-----------------|
+| **Sociodemográficos**             | Sexo, edad, ingresos, educación, ocupación, ID política, religión, etnia, escuela de origen, nacionalidad, tamaño hogar, estatus social subjetivo | — |
+| **Justicia de mercado**           | Ítems en salud, educación, pensiones; mejoras de medición por dominio | — |
+| **CARIN**               | Control, Actitud, Reciprocidad, Identidad, Necesidad      | [@meuleman_welfare_2020a] |
+| **Meritocracia**| Percepciones y preferencias meritocráticas y no meritocráticas | [@castillo_multidimensional_2023] |
+| **Neoliberalismo**                | Actitudes pro-mercado / responsabilidad individual            | [@grzanka_measuring_2020] |
+| **Actitudes desigualdad**  | Percepción de desigualdad, preferencias redistributivas, mercado vs Estado | ISSP|
+| **Experimento distribucional**    | Asignación de recursos | [@gilgen_distributional_2020] |
+
+
+:::
+ 
+# Discusión {data-background-color="#92220C"}
+
+:::: {.incremental style="font-size: 160%;"}
+
+**1. ¿Sus investigaciones requieren levantar datos?**
+
+**2. ¿Otros ítems/constructos necesarios a incluir en la encuesta?**
+
+**3. Operacionalización y medición**
+
+**4. Acercanos al cómo preguntar correctamente**
+
+::::
 
 # Gracias por su atención! 
 
