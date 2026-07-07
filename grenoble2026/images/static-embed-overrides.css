@@ -1,0 +1,7 @@
+#shiny-disconnected-overlay,
+.recalculating,
+[data-shiny-busy-spinners] .recalculating,
+[data-shiny-busy-pulse].shiny-busy::after {
+  display: none !important;
+  opacity: 0 !important;
+}
