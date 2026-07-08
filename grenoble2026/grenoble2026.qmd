@@ -65,7 +65,7 @@ rm(list = ls())
 
 ![](images/jusmer-logo-vert.png){width='75%'}
 
-![](images/qr.png){width='80%'}
+![](images/qr-code.png){width='80%'}
 
 :::
 
@@ -132,7 +132,7 @@ Interdisciplinary International Dialogue Meeting on Representations of Economic 
 :::
 
 
-## Team {background-color="#491106ff"}
+## (Current) Team {background-color="#491106ff"}
 
 ::: {style="text-align: center;"}
 ![](images/team.png){width='80%'}
@@ -140,35 +140,32 @@ Interdisciplinary International Dialogue Meeting on Representations of Economic 
 Andreas Laffert, Tomás Urzúa, Juan Carlos Castillo, René Canales
 :::
 
-## Agenda {style="font-size: 75%;"}
+## Gathering the pieces {style="font-size: 75%;"}
 
 ### Peer reviewed Articles
 
-::: {.incremental}
+- Castillo, J. C., Iturra, J., Maldonado, L., Atria, J., & Meneses, F. (2023). A Multidimensional Approach for **Measuring Meritocratic Beliefs**: Advantages, Limitations and Alternatives to the ISSP Social Inequality Survey. *International Journal of Sociology*, 53(6), 448–472. [https://doi.org/10.1080/00207659.2023.2241875](https://doi.org/10.1080/00207659.2023.2241875)
 
-- Castillo, J. C., Iturra, J., Maldonado, L., Atria, J., & Meneses, F. (2023). A Multidimensional Approach for Measuring Meritocratic Beliefs: Advantages, Limitations and Alternatives to the ISSP Social Inequality Survey. International Journal of Sociology, 53(6), 448–472. [https://doi.org/10.1080/00207659.2023.2241875](https://doi.org/10.1080/00207659.2023.2241875)
+- Castillo, J. C., Salgado, M., Carrasco, K., & Laffert, A. (2024). The Socialization of Meritocracy and Market Justice Preferences at **School**. *Societies*, 14(11), 214. [doi.org/10.3390/soc14110214](https://doi.org/10.3390/soc14110214)
 
-- Castillo, J. C., Salgado, M., Carrasco, K., & Laffert, A. (2024). The Socialization of Meritocracy and Market Justice Preferences at School. *Societies*, 14(11), 214. [doi.org/10.3390/soc14110214](https://doi.org/10.3390/soc14110214)
+- Castillo, J. C., Laffert, A., Carrasco, K., & Iturra-Sanhueza, J. (2025). Perceptions of inequality and meritocracy: their interplay in shaping preferences for **market justice in Chile** (2016–2023). *Frontiers in Sociology*, 10, 1634219. [https://doi.org/10.3389/fsoc.2025.1634219](https://doi.org/10.3389/fsoc.2025.1634219)
 
-- Castillo, J. C., Laffert, A., Carrasco, K., & Iturra-Sanhueza, J. (2025). Perceptions of inequality and meritocracy: their interplay in shaping preferences for market justice in Chile (2016–2023). Frontiers in Sociology, 10, 1634219. [https://doi.org/10.3389/fsoc.2025.1634219](https://doi.org/10.3389/fsoc.2025.1634219)
+- Castillo, Juan Carlos; Iturra, Julio & Carrasco, Kevin (2025). Changes in the Justification of **Educational** Inequalities: The Role of Perceptions of Inequality and Meritocracy During the COVID Pandemic. Social Justice Research, 38(3) 240–263 https://doi.org/10.1007/s11211-025-00458-0
 
-- Castillo, Juan Carlos; Iturra, Julio & Carrasco, Kevin (2025). Changes in the Justification of Educational Inequalities: The Role of Perceptions of Inequality and Meritocracy During the COVID Pandemic. Social Justice Research, 38(3) 240–263 https://doi.org/10.1007/s11211-025-00458-0
+- Castillo, J. C., Canales Sellés, R., Laffert, A., & Urzúa, T. (2026). Justification trajectories for **pension** inequality in Chile (2016–2023): the role of social class and beliefs in meritocracy. *Frontiers in Sociology*, 11, 1771856. [https://doi.org/10.3389/fsoc.2026.1771856](https://doi.org/10.3389/fsoc.2026.1771856)
 
-- Castillo, J. C., Canales Sellés, R., Laffert, A., & Urzúa, T. (2026). Justification trajectories for pension inequality in Chile (2016–2023): the role of social class and beliefs in meritocracy. *Frontiers in Sociology*, 11, 1771856. [https://doi.org/10.3389/fsoc.2026.1771856](https://doi.org/10.3389/fsoc.2026.1771856)
 
-:::
-
+::: {.fragment}
 ### Forthcoming
 
-::: {.incremental}
-- Stability and comparability of meritocratic beliefs in school-age students: A measurement invariance approach across time and cohorts. Andreas Laffert, Juan Carlos Castillo, René Canales, Tomás Urzúa & Kevin Carrasco. *Submited*.
+- Stability and comparability of meritocratic beliefs in school-age students: A **measurement invariance ** approach across time and cohorts. Andreas Laffert, Juan Carlos Castillo, René Canales, Tomás Urzúa & Kevin Carrasco. *Submited*.
 
-- Market justice and meritocracy: A structural equation modeling approach. Andreas Laffert, Tomás Urzúa, Juan Carlos Castillo & René Canales.
+- Market justice and meritocracy: A **structural equation modeling** approach. Andreas Laffert, Tomás Urzúa, Juan Carlos Castillo & René Canales.
 
-- Inequality and deservingness in higher education in Chile. A conjoint survey experiment. Juan Carlos Castillo, Andreas Laffert, René Canales & Tomás Urzúa. 
-
-
+- Inequality and deservingness in higher education in Chile. A **conjoint** survey experiment. Juan Carlos Castillo, Andreas Laffert, René Canales & Tomás Urzúa. 
 :::
+
+
 
 # Background {background-color="#491106ff"}
 
@@ -233,7 +230,9 @@ Market justice preferences [@busemeyer_skills_2015; @castillo_perceptions_2025; 
 
 - Lane [-@lane_market_1986]: market justice vs. political justice
 
-- Normative beliefs that legitimize the idea that access to essential social services—such as healthcare, education, or pensions—should be determined by market-based criteria [@lindh_public_2015, p.895]
+  - *market "is the device for coordinating an economy by prices largely determined by relatively free, competitive transactions among firms guided by anticipated profits" [@lane_market_1986, p.383]*
+
+- Normative beliefs that legitimize the idea that access to essential social services—such as healthcare, education,  pensions—should be determined by market-based criteria [@lindh_public_2015, p.895]
 
 - Measurement: assessing whether individuals consider it fair that access to these services depends on income [@lindh_public_2015; @kluegel_legitimation_1999; @castillo_perceptions_2025]
 
@@ -256,7 +255,7 @@ Market justice preferences [@busemeyer_skills_2015; @castillo_perceptions_2025; 
 - Socioeconomic status—income, education, and occupation [@lindh_public_2015; @koos_moral_2019; @busemeyer_welfare_2020; @svallfors_political_2007]
 - Perceptions of inequality and meritocracy [@castillo_perceptions_2025]
 - Economic conservatism/liberalism [@lee_fairness_2024]
-- **Desservingness** 
+- **Deservingness** 
 
 :::
 
@@ -282,7 +281,7 @@ Market justice preferences [@busemeyer_skills_2015; @castillo_perceptions_2025; 
 
 - Believing in meritocracy  has been associated with tolerance and acceptance of inequality [@sandel_tyranny_2020; @mijs_paradox_2019]
 
-- We argue that meritocratic beliefs are a relevant driver of market justice preferences, as it provides a moral justification for the unequal distribution of resources and opportunities in society.
+- **We argue that meritocratic beliefs are a relevant driver of market justice preferences, as it provides a moral justification for the unequal distribution of resources and opportunities in society.**
 
 - but, **what are meritocratic beliefs?**
 
@@ -521,9 +520,9 @@ Change in the justification of inequality in healthcare, pensions and education 
 @castillo_socialization_2024
 
 
-## Changes in market justice preferences over time
+## Changes in market justice preferences
 
-![](https://www.frontiersin.org/api/ipx/w=716&f=webp/https://www.frontiersin.org/files/Articles/1634219/xml-images/fsoc-10-1634219-g0002.webp)
+![](https://www.frontiersin.org/api/ipx/w=716&f=webp/https://www.frontiersin.org/files/Articles/1634219/xml-images/fsoc-10-1634219-g0002.webp){fig-align="center"}
 
 @castillo_perceptions_2025
 
@@ -628,8 +627,6 @@ Laffert et al (2026)
 </table>
 <p style="font-size:0.8rem; color:#555; margin-top:0.8rem;"><em>Note: Levels are given in English, with the ooriginal Spanish wording shown to respondents in parentheses. The factorial space comprises 2 (Need) × 3 (Effort) × 2 (Control) × 2 (Reciprocity) × 2 (Attitude) × 3 (Identity) × 2 (Sex) = 288 unique profiles. Attributes are assigned independently and uniformly at the profile level. Sex is signaled through gendered first names drawn from matched pools rather than as an explicit table row.</em></p>
 
-
-
 ## Next steps
 
 ::: {.fragment}
@@ -660,6 +657,56 @@ Laffert et al (2026)
 + education
 :::
 :::
+
+
+## And some final thoughts
+
+::: {.incremental}
+
+- **So far**: the extant literature focuses on political institutions as drivers of redistributive preferences (policy feedback in welfare regimes)
+
+- **Instead**:
+  - Focus on markets as political institutions
+  - Focus on market preferences
+  - Focus on deservingness criteria (including meritocratic beliefs)
+
+- **We need**: 
+  - Development of measurement instruments (valid estimands)
+  - Better theoretical background (instead of "paradoxes")
+  - Including larger variation in contextual inequality in comparative research
+
+:::
+
+
+# Thanks, comments most welcome!
+
+
+
+::: {.columns}
+::: {.column style="text-align: center;"}
+
+Project website: [https://jus-mer.com](https://jus-mer.com)
+
+![](images/jusmer-logo-vert.png){width='50%'}
+
+:::
+
+
+::: {.column style="text-align: center;"}
+
+Project Github: [https://github.com/jus-mer](https://github.com/jus-mer)
+
+![](images/github.png){width='50%'}
+
+
+:::
+
+:::
+
+
+
+
+
 
 
 #
