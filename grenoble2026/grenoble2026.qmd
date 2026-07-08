@@ -672,7 +672,7 @@ Laffert et al (2026)
 
 - **We need**: 
   - Development of measurement instruments (valid estimands)
-  - Better theoretical background (instead of "paradoxes")
+  - Instead of discovering "paradoxes", better theoretical background - as for instance Mau et al.(2024) Triggerpunkte
   - Including larger variation in contextual inequality in comparative research
 
 :::
