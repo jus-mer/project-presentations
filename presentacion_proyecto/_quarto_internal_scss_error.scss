@@ -1,4 +1,4 @@
-// quarto-scss-analysis-annotation { "quarto-version": "1.8.25" }
+// quarto-scss-analysis-annotation { "quarto-version": "1.7.33" }
 
 // quarto-scss-analysis-annotation { "origin": "'use' section from format" }
 
@@ -117,7 +117,7 @@ $heading4Size: 0.5em;
 $codeFont: monospace;
 
 // Links and actions
-$linkColor: #26cbc3;
+$linkColor: #00b5b5;
 $linkColorHover: $headingColor;
 
 // Text selection
@@ -454,7 +454,6 @@ float-left .box-4, .float-left .box-inv-4,
   color: #FFFFFF;
 }
 
-
 // quarto-scss-analysis-annotation { "origin": "Defaults from Quarto's SCSS" }
 
 
@@ -655,7 +654,7 @@ $overlayElementFgColor: 0, 0, 0 !default;
 
 // -- END setting.scss --
 
-$code-copy-selector: "div.code-copy-outer-scaffold:hover > " !default;
+$code-copy-selector: "pre.sourceCode:hover > " !default;
 $code-white-space: pre !default;
 $tbl-cap-location: top !default;
 // main colors
@@ -1399,7 +1398,8 @@ details > summary > p:only-child {
 }
 
 // codeCopy
-div.code-copy-outer-scaffold {
+pre.sourceCode,
+code.sourceCode {
   position: relative;
 }
 
