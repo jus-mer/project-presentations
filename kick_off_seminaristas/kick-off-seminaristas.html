@@ -6,8 +6,8 @@
 <script src="kick-off-seminaristas_files/libs/quarto-html/tippy.umd.min.js"></script>
 <link href="kick-off-seminaristas_files/libs/quarto-html/tippy.css" rel="stylesheet">
 <link href="kick-off-seminaristas_files/libs/quarto-html/light-border.css" rel="stylesheet">
-<link href="kick-off-seminaristas_files/libs/quarto-html/quarto-syntax-highlighting-ea385d0e468b0dd5ea5bf0780b1290d9.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
-  <meta name="generator" content="quarto-1.7.33">
+<link href="kick-off-seminaristas_files/libs/quarto-html/quarto-syntax-highlighting-7b89279ff1a6dce999919e0e67d4d9ec.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
+  <meta name="generator" content="quarto-1.8.25">
 
   <title>kick-off-seminaristas</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
@@ -48,7 +48,7 @@
     div.csl-indent {
       margin-left: 2em;
     }  </style>
-  <link rel="stylesheet" href="kick-off-seminaristas_files/libs/revealjs/dist/theme/quarto-c6f1d92a3e159421453e4d6e65d5aef2.css">
+  <link rel="stylesheet" href="kick-off-seminaristas_files/libs/revealjs/dist/theme/quarto-d3b24c58c26073f90eef537400fdde48.css">
   <link href="kick-off-seminaristas_files/libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
   <link href="kick-off-seminaristas_files/libs/revealjs/plugin/reveal-menu/menu.css" rel="stylesheet">
   <link href="kick-off-seminaristas_files/libs/revealjs/plugin/reveal-menu/quarto-menu.css" rel="stylesheet">
@@ -896,7 +896,7 @@ West, B. T., Zhang, S., Wagner, J., Gatward, R., Saw, H.-W., &amp; Axinn, W. G. 
         margin: 0.1,
 
         math: {
-          mathjax: 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.9/MathJax.js',
+          mathjax: 'https://cdn.jsdelivr.net/npm/mathjax@2.7.9/MathJax.js',
           config: 'TeX-AMS_HTML-full',
           tex2jax: {
             inlineMath: [['\\(','\\)']],
@@ -1008,13 +1008,14 @@ West, B. T., Zhang, S., Wagner, J., Gatward, R., Saw, H.-W., &amp; Axinn, W. G. 
           e.clearSelection();
         }
         const getTextToCopy = function(trigger) {
-            const codeEl = trigger.previousElementSibling.cloneNode(true);
-            for (const childEl of codeEl.children) {
-              if (isCodeAnnotation(childEl)) {
-                childEl.remove();
-              }
+          const outerScaffold = trigger.parentElement.cloneNode(true);
+          const codeEl = outerScaffold.querySelector('code');
+          for (const childEl of codeEl.children) {
+            if (isCodeAnnotation(childEl)) {
+              childEl.remove();
             }
-            return codeEl.innerText;
+          }
+          return codeEl.innerText;
         }
         const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
           text: getTextToCopy
