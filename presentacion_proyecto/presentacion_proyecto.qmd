@@ -87,7 +87,7 @@ rm(list = ls())
 
 Reunión ayudantes y seminaristas
 
-06 Agosto 2026
+06 de Agosto 2026
 
 :::
 :::
