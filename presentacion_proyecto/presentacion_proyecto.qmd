@@ -152,6 +152,9 @@ Preferencias por justicia de mercado [@castillo_perceptions_2025; @koos_moral_20
 
 :::
 
+:::{.notes}
+privatización de bienes públicos -> transformación en la arquitectura de las instituciones de bienestar social (alternativa pública/privada) -> orden social refleja una economía moral (policy feedback effects) -> preferencias por justicia de mercado (adherencia a que los criterios de mercado operen para la asignación de recursos)
+:::
 
 ## Contexto chileno
 
@@ -160,6 +163,10 @@ Preferencias por justicia de mercado [@castillo_perceptions_2025; @koos_moral_20
 - Crecimiento con elevada desigualdad y bajo gasto social [@llorca-jana_historia_2021; @flores_top_2020]
 - Malestar por desigualdad en acceso y provisión de servicios sociales [@pnud_desiguales_2017], y conflictividad social [@somma_no_2021] y
 - Consecuencias del neoliberalismo en las subjetividades [@canalesceron_sujeto_2021;@araujo_hilos_2019]
+:::
+
+:::{.notes}
+subvención -> crecimiento económico sin retorno social, expresado en la baja inversión pública -> malestar social generalizado (desiguales), expresado en demandas específicas como el movimiento no + AFP, así como en otras más generales como el estallido social de 2019 -> descomposición del tejido social reflejado en una alta individualización, lo que ha afectado las preferencias redistributivas de la población
 :::
 
 ## Comodificación de servicios en Chile
@@ -238,6 +245,11 @@ Las preferencias por justicia de mercado se asocian a criterios de merecimiento 
 
 :::
 
+:::{.notes}
+se contraponen dos conceptos, donde a grosso modo
+
+political justice aborda la redistribución de recursos apelando a criterios de igualdad, mientras que market justice defiende la asignación de recursos según criterios de mercado. Específicamente, market justice refiere a... 
+:::
 
 ## Preferencias por justicia de mercado
 ::::: columns
@@ -422,6 +434,7 @@ knitr::include_graphics("images/merit-6.png")
 
 ## Presentaciones
 
+::: {style="font-size: 85%;"}
 - [Cambios En Las Creencias Sobre Meritocracia y Justicia de Mercado En El Contexto Escolar Chileno (2025)](https://jus-mer.com/references/presentations/posts/2025_cambios_en_las_creen). Castillo, Juan Carlos; Carrasco, Kevin; Laffert, Andreas & Nunez, Maria Fernanda. VIII Seminario Internacional Desigualdad y Movilidad Social En América Latina, Brasil
 
 - [Creencias en la meritocracia en la etapa escolar: Conceptos, medición e invarianza (2025)](https://jus-mer.com/references/presentations/posts/2025_stability_and_compar). Laffert, Andreas; Castillo, Juan Carlos; Canales-Selles, Rene; Urzúa, Tomás & Carrasco, Kevin. XII International Conference COES, Chile
@@ -433,9 +446,9 @@ knitr::include_graphics("images/merit-6.png")
 - [Preferences for Market-Based Welfare: Disentangling the Role of Merit and Privilege Beliefs in Chile (2026)](https://jus-mer.com/references/presentations/posts/2026_preferences_for_mark). Laffert, Andreas; Castillo, Juan Carlos; Canales-Selles, Rene & Urzúa, Tomás. WARN Online Workshop: Methods in Welfare Attitudes Research
 
 Más presentaciones en la [página web del proyecto](https://jus-mer.com/#presentationsh1)
- 
+:::
 
-# Proyectos en desarrollo
+# Proyectos en desarrollo {data-background-color="#8b231e"}
 
 # Diseño encuesta _Mercado, merecimiento y mérito_ {.xlarge data-background-color="#8b231e"}
 
@@ -463,7 +476,7 @@ Más presentaciones en la [página web del proyecto](https://jus-mer.com/#presen
 ::: {.incremental .highlight-last style="font-size: 100%;"}
 - Experimento factorial que presenta **perfiles** construidos con múltiples **atributos** que varían simultáneamente [@hainmueller_causal_2014]
 
-- Los encuestados evaluan perfiles (eligen o califican)
+- Los encuestados evalúan perfiles (eligen o califican)
 
 - Identificar qué atributos se consideran más relevantes cuando la decisión exige **ponderar múltiples criterios simultáneamente** [@bansak_conjoint_2021; @hainmueller_causal_2014]
 
