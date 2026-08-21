@@ -91,6 +91,18 @@ $backgroundColor: #ffffff;
 
 // Primary/body text
 $mainFont: 'Noto Serif', sans-serif; /* Updated font */
+
+// Style for slides with first-level headings
+.reveal .slides section h1 {
+  &:first-child {
+    & + p, & + div {
+      // This targets slides where h1 is the first element
+      & ~ * {
+        background-color: #62190a; // Light version of #92220C (the heading color)
+      }
+    }
+  }
+}
 $mainFontSize: 27px;
 $mainColor: #272828;
 
@@ -117,7 +129,7 @@ $heading4Size: 0.5em;
 $codeFont: monospace;
 
 // Links and actions
-$linkColor: #26cbc3;
+$linkColor: #00b5b5;
 $linkColorHover: $headingColor;
 
 // Text selection
@@ -453,7 +465,6 @@ float-left .box-4, .float-left .box-inv-4,
 .section-title-inv-5 h1 {
   color: #FFFFFF;
 }
-
 
 // quarto-scss-analysis-annotation { "origin": "Defaults from Quarto's SCSS" }
 

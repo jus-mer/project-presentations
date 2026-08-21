@@ -23,6 +23,7 @@ format:
 # data-background-size: cover
     auto-play-media: true
     mathjax: "default"
+    vertical-scroll: true
 editor_options: 
   chunk_output_type: console
 ---
