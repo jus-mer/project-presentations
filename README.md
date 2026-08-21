@@ -8,3 +8,5 @@
 - [Presentation Grenoble July 2026](https://jus-mer.github.io/project-presentations/grenoble2026/grenoble2026.html)
 
 - [Presentación del Proyecto - Ayudantes y seminaristas Agosto 2026](https://jus-mer.github.io/project-presentations/presentacion_proyecto/presentacion_proyecto.html)
+
+- [Project presentation - August 2026](https://jus-mer.github.io/project-presentations/presentation-august/presentation-august.html#/)
