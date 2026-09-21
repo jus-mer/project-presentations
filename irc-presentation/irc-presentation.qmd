@@ -80,7 +80,7 @@ rm(list = ls())
 
 # Market Justice and Deservingness of Social Welfare {style="font-size:21px; text-align:right; line-height:1.1;"}
 
-### **FONDECYT Grant 2025-2029** {style="font-size:35px; text-align:right; line-height:1.1; margin-top:12px;"}
+### **A zoom on meritocracy measurement** {style="font-size:35px; text-align:right; line-height:1.1; margin-top:12px;"}
 
 ------------------------------------------------------------------------
 
@@ -97,19 +97,11 @@ rm(list = ls())
 
 </br>
 
-August 2026 - University of Chile 
+September 2026 - University of Chile 
 
 
 :::
 :::
-
-
--> Intentar conectar el caso de Chile con debates a nivel mundial -> Chile como el futuro de los demás países en cuanto a la comodificación de servicios?
-
-how people bring differents beliefs about social stratification
-
-podemos describir las ideas de la arquitectura institucional en la interpretación de los resultados, no sólo a partir de los datos y/o variables utilizadas
-
 
 
 # Research project {background-color="#491106ff"}
@@ -452,28 +444,24 @@ CARIN [@oorschot_who_2000; @meuleman_welfare_2020] + @knotz_recast_2022 framewor
 ![](images/whole_scheme.png)
 
 
-# Some studies {background-color="#491106ff"}
+# Studies based on the meritocracy scale {background-color="#491106ff"}
 
 ::: {style="font-size: 125%;"}
 **A. Multidimensional meritocracy**
 
-**B. Market justice preferences & meritocracy**
-
-**C. Market justice preferences & deservingness (ongoing)**
+**B. Applications of multidimensional meritocracy**
 :::
 
 :::{.notes}
 Well, now I'm going to present some of the research we've conducted. F**e**rst, we'll look at the work focused on the multidimensional framework of meritocracy; next, its connection to market justice; and finally, the research that seeks to link market justice with criteria of merit.
 :::
 
-# Some studies {background-color="#491106ff"}
+# Studies based on the meritocracy scale {background-color="#491106ff"}
 
 ::: {style="font-size: 125%;"}
 **[A. Multidimensional meritocracy]{style="background-color: #ffef72; color: #1f1f1f; padding: 0.1em 0.3em; border-radius: 4px;"}**
 
-[**B. Market justice preferences & meritocracy**]{style="color: #9aa0a6; opacity: 0.65;"}
-
-[**C. Market justice preferences & deservingness (ongoing)**]{style="color: #9aa0a6; opacity: 0.65;"}
+[**B. Applications of multidimensional meritocracy**]{style="color: #9aa0a6; opacity: 0.65;"}
 :::
 
 ## 
@@ -582,6 +570,77 @@ And as a result, we observed that the scale also works at the student level.
 
 Just to mention it, this is still a work in progress that is already in the final phase
 :::
+
+
+# Studies based on the meritocracy scale {background-color="#491106ff"}
+
+::: {style="font-size: 125%;"}
+[**A. Multidimensional meritocracy**]{style="color: #9aa0a6; opacity: 0.65;"}
+
+**[B. Applications of multidimensional meritocracy]{style="background-color: #ffef72; color: #1f1f1f; padding: 0.1em 0.3em; border-radius: 4px;"}**
+
+:::
+
+## Data
+
+:::: {.incremental style="font-size: 120%;"}
+
+- EDUMERCO: Online survey (CAWI), fielded in 2025, with adult respondents from the Metropolitan Region of Chile  
+
+- Non-probability sample with quota-based design  
+    → approximating population parameters by age, gender, education, and socioeconomic status  
+
+- Total sample: N = 3,470  
+
+:::: 
+
+## Multidimensional framework of meritocracy
+
+```{r}
+#| fig-cap-location: bottom
+#| fig-cap: "Castillo et al. (2023) conceptual model"
+#| fig-align: center
+#| out-width: '100%'
+
+
+knitr::include_graphics("images/diagramas(8).png")
+```
+
+## Hypotheses - Structural Ecuation Model
+
+```{r}
+#| fig-cap-location: bottom
+#| fig-cap: "Hypotheses"
+#| fig-align: center
+#| out-width: '80%'
+
+
+knitr::include_graphics("images/h-warn.png")
+```
+
+## CFA
+
+```{r}
+#| fig-cap-location: bottom
+#| fig-cap: "Confirmatory Factor Analysis"
+#| fig-align: center
+#| out-width: '100%'
+
+
+knitr::include_graphics("images/warn-1.png")
+```
+
+## SEM Model
+
+```{r}
+#| fig-cap-location: bottom
+#| fig-cap: "Structural Ecuation Model"
+#| fig-align: center
+#| out-width: '100%'
+
+
+knitr::include_graphics("images/warn-2.png")
+```
 
 ## 
 
@@ -736,205 +795,29 @@ Now, the next steps are to study the relationship between these classes and mark
 I plan to have a first draft of the thesis by the end of this year, and to complete it during the first semester of next year, as I will be on a research fellowship at the University of Konstanz in a project that is part of the Politics of Inequality Cluster.
 :::
 
-# Some studies {background-color="#491106ff"}
+## General remarks
 
-::: {style="font-size: 125%;"}
-[**A. Multidimensional meritocracy**]{style="color: #9aa0a6; opacity: 0.65;"}
+::: {.incremental style="font-size:35px;"}
 
-**[B. Market justice preferences & meritocracy]{style="background-color: #ffef72; color: #1f1f1f; padding: 0.1em 0.3em; border-radius: 4px;"}**
-
-[**C. Market justice preferences & deservingness (ongoing)**]{style="color: #9aa0a6; opacity: 0.65;"}
-:::
-
-## Market justice over time
-
-![](images/changes_market_justice.webp)
-
-Change in the justification of inequality in healthcare, pensions and education over time (2016–2023). (a) Healthcare. (b) Pensions. (c) Education. Source: own elaboration with pooled data from ELSOC 2016–2023 (N obs = 8643; N groups = 1687).
-
-@castillo_perceptions_2025
-
-
-## Market justice education
-
-![](images/changes_education.webp)
-
-@castillo_changes_2025
-
-## Market justice pensions
-
-![](images/changes_mj_pensions.webp)
-
-## Market justice pensions & social class
-
-![](images/market_justice_class.webp)
-
-@castillo_justification_2026
-
-## Market justice at school
-
-![](images/market_justice_school.png)
-
-@castillo_socialization_2024
-
-
-## Changes in market justice preferences
-
-![](https://www.frontiersin.org/api/ipx/w=716&f=webp/https://www.frontiersin.org/files/Articles/1634219/xml-images/fsoc-10-1634219-g0002.webp){fig-align="center"}
-
-@castillo_perceptions_2025
-
-## Market justice and multidimensional meritocracy
-
-![](images/sem_merit_mj.png)
-
-Laffert et al (2026)
-
-# Some studies {background-color="#491106ff"}
-
-::: {style="font-size: 125%;"}
-[**A. Multidimensional meritocracy**]{style="color: #9aa0a6; opacity: 0.65;"}
-
-[**B. Market justice preferences & meritocracy**]{style="color: #9aa0a6; opacity: 0.65;"}
-
-**[C. Market justice preferences & deservingness (ongoing)]{style="background-color: #ffef72; color: #1f1f1f; padding: 0.1em 0.3em; border-radius: 4px;"}**
-:::
-
-## Main idea
-
-- Estimate the relative weight of different deservingness criteria for allocating public goods in Chile
-
-- Study the association between meritocratic beliefs and deservingness criteria
-
-- Current study: conjoint-allocation survey experiment (inspired by @gilgen_principles_2025)
-
-- Stage: pre-pilot (this week)
- 
-## Pilot survey
-
-```{=html}
-<iframe src="images/survey.html" width="100%" height="800" frameborder="0" style="border: none; background: #ffffff; opacity: 1; filter: none; mix-blend-mode: normal;"></iframe>
-```
-
--> link to pre-pilot survey (allows translation in chrome): [https://jus-mer-pre-piloto-v1.hf.space/](https://jus-mer-pre-piloto-v1.hf.space/)
-
-## Attributes and levels
-
-
-<table style="width:100%; border-collapse:collapse; font-size:0.85rem; line-height:1.5;">
-  <thead>
-    <tr style="border-top:2px solid #000; border-bottom:1px solid #000; background:#f5f5f5;">
-      <th style="padding:0.5rem 0.6rem; text-align:left; width:12%;">Attribute</th>
-      <th style="padding:0.5rem 0.6rem; text-align:left; width:14%;">Criterion</th>
-      <th style="padding:0.5rem 0.6rem; text-align:left; width:20%;">Profile label</th>
-      <th style="padding:0.5rem 0.6rem; text-align:left; width:34%;">Levels</th>
-      <th style="padding:0.5rem 0.6rem; text-align:left; width:20%;">Reference category</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr style="border-bottom:1px solid #ddd;">
-      <td style="padding:0.5rem 0.6rem; vertical-align:top;"><strong>Need</strong></td>
-      <td style="padding:0.5rem 0.6rem; vertical-align:top;">Need (CARIN/NICER)</td>
-      <td style="padding:0.5rem 0.6rem; vertical-align:top;">Makes ends meet with <em>(Su hogar llega a fin de mes con:)</em></td>
-      <td style="padding:0.5rem 0.6rem; vertical-align:top;">Hardship <em>(Dificultad)</em><br>Comfort <em>(Holgura)</em></td>
-      <td style="padding:0.5rem 0.6rem; vertical-align:top;">Comfort <em>(Holgura)</em></td>
-    </tr>
-    <tr style="border-bottom:1px solid #ddd; background:#fafafa;">
-      <td style="padding:0.5rem 0.6rem; vertical-align:top;"><strong>Effort</strong></td>
-      <td style="padding:0.5rem 0.6rem; vertical-align:top;">Effort (NICER)</td>
-      <td style="padding:0.5rem 0.6rem; vertical-align:top;">Studies <em>(Estudia:)</em></td>
-      <td style="padding:0.5rem 0.6rem; vertical-align:top;">More than their peers <em>(Más que sus compañeros)</em><br>The same as their peers <em>(Igual que sus compañeros)</em><br>Less than their peers <em>(Menos que sus compañeros)</em></td>
-      <td style="padding:0.5rem 0.6rem; vertical-align:top;">Less than their peers <em>(Menos que sus compañeros)</em></td>
-    </tr>
-    <tr style="border-bottom:1px solid #ddd;">
-      <td style="padding:0.5rem 0.6rem; vertical-align:top;"><strong>Control</strong></td>
-      <td style="padding:0.5rem 0.6rem; vertical-align:top;">Control (CARIN/NICER)</td>
-      <td style="padding:0.5rem 0.6rem; vertical-align:top;">Needs the scholarship because <em>(Requiere la beca porque:)</em></td>
-      <td style="padding:0.5rem 0.6rem; vertical-align:top;">Applied to other scholarships but received no funding <em>(Postuló a otras becas pero no obtuvo financiamiento)</em><br>Did not apply to other scholarships in time <em>(No alcanzó a postular a tiempo a otras becas)</em></td>
-      <td style="padding:0.5rem 0.6rem; vertical-align:top;">Did not apply in time <em>(No alcanzó a postular a tiempo)</em></td>
-    </tr>
-    <tr style="border-bottom:1px solid #ddd; background:#fafafa;">
-      <td style="padding:0.5rem 0.6rem; vertical-align:top;"><strong>Reciprocity</strong></td>
-      <td style="padding:0.5rem 0.6rem; vertical-align:top;">Reciprocity (CARIN/NICER)</td>
-      <td style="padding:0.5rem 0.6rem; vertical-align:top;">Outside their studies <em>(Fuera de sus estudios:)</em></td>
-      <td style="padding:0.5rem 0.6rem; vertical-align:top;">Has done volunteer work <em>(Ha hecho voluntariado)</em><br>Has not done volunteer work <em>(No ha hecho voluntariado)</em></td>
-      <td style="padding:0.5rem 0.6rem; vertical-align:top;">Has not done volunteer work <em>(No ha hecho voluntariado)</em></td>
-    </tr>
-    <tr style="border-bottom:1px solid #ddd;">
-      <td style="padding:0.5rem 0.6rem; vertical-align:top;"><strong>Attitude</strong></td>
-      <td style="padding:0.5rem 0.6rem; vertical-align:top;">Attitude (CARIN)</td>
-      <td style="padding:0.5rem 0.6rem; vertical-align:top;">Sees the scholarship as <em>(Ve la beca como:)</em></td>
-      <td style="padding:0.5rem 0.6rem; vertical-align:top;">Help they are grateful for <em>(Una ayuda que agradece)</em><br>Something they deserve <em>(Algo que se merece)</em></td>
-      <td style="padding:0.5rem 0.6rem; vertical-align:top;">Something they deserve <em>(Algo que se merece)</em></td>
-    </tr>
-    <tr style="border-bottom:1px solid #ddd; background:#fafafa;">
-      <td style="padding:0.5rem 0.6rem; vertical-align:top;"><strong>Identity</strong></td>
-      <td style="padding:0.5rem 0.6rem; vertical-align:top;">Identity (CARIN/NICER)</td>
-      <td style="padding:0.5rem 0.6rem; vertical-align:top;">Country of birth <em>(País de nacimiento:)</em></td>
-      <td style="padding:0.5rem 0.6rem; vertical-align:top;">Chile<br>Venezuela<br>Peru <em>(Perú)</em></td>
-      <td style="padding:0.5rem 0.6rem; vertical-align:top;">Chile</td>
-    </tr>
-    <tr style="border-bottom:2px solid #000;">
-      <td style="padding:0.5rem 0.6rem; vertical-align:top;"><strong>Sex</strong></td>
-      <td style="padding:0.5rem 0.6rem; vertical-align:top;">Ascriptive (signaled by name)</td>
-      <td style="padding:0.5rem 0.6rem; vertical-align:top;">First name (no explicit row)</td>
-      <td style="padding:0.5rem 0.6rem; vertical-align:top;">Female name<br>Male name</td>
-      <td style="padding:0.5rem 0.6rem; vertical-align:top;">Male</td>
-    </tr>
-  </tbody>
-</table>
-<p style="font-size:0.8rem; color:#555; margin-top:0.8rem;"><em>Note: Levels are given in English, with the ooriginal Spanish wording shown to respondents in parentheses. The factorial space comprises 2 (Need) × 3 (Effort) × 2 (Control) × 2 (Reciprocity) × 2 (Attitude) × 3 (Identity) × 2 (Sex) = 288 unique profiles. Attributes are assigned independently and uniformly at the profile level. Sex is signaled through gendered first names drawn from matched pools rather than as an explicit table row.</em></p>
-
-## Next steps
-
-::: {.fragment}
-### Survey
-
-::: {style="margin-left: 2em;"}
-- conjoint-allocation experiment
-
-- expand market justice measurement
-
-- longitudinal design (2026-2028)
-:::
-:::
-
-::: {.fragment}
-### Latent class analysis of meritocracy 
-
-::: {style="margin-left: 2em;"}
-+ relationship with deservingness criteria
-:::
-:::
-
-::: {.fragment}
-### Market justice in international comparative perspective (ISSP 1999-2019)
-
-::: {style="margin-left: 2em;"}
-+ health
-+ education
-:::
-:::
-
-
-## And some final thoughts
-
-::: {.incremental}
-
-- **So far**: the extant literature focuses on political institutions as drivers of redistributive preferences (policy feedback in welfare regimes)
-
-- **Instead**:
+- **Our project**:
   - Focus on markets as political institutions
   - Focus on market preferences
   - Focus on deservingness criteria (including meritocratic beliefs)
 
-- **We need**: 
-  - Development of measurement instruments (valid estimands)
-  - Instead of discovering "paradoxes", better theoretical background - as for instance Mau et al.(2024) Triggerpunkte
-  - Including larger variation in contextual inequality in comparative research
-
 :::
 
+## About meritocracy measurement
+
+::: {.incremental style="font-size:35px;"}
+
+- Meritocracy can be understood from a multidimensional perspective
+
+- The framework allow to disentangle perceptions of preferences, on the one hand, and the meritocracy of privilege, on the other
+
+- Meritocracy and privilege are not a zero-sum game; rather, they can coexist.
+
+
+:::
 
 # Thanks, comments most welcome!
 
@@ -995,7 +878,7 @@ Project Github: [https://github.com/jus-mer](https://github.com/jus-mer)
 
 # Market Justice and Deservingness of Social Welfare {style="font-size:21px; text-align:right; line-height:1.1;"}
 
-### **FONDECYT Grant 2025-2029** {style="font-size:35px; text-align:right; line-height:1.1; margin-top:12px;"}
+### **A zoom on meritocracy measurement** {style="font-size:35px; text-align:right; line-height:1.1; margin-top:12px;"}
 
 ------------------------------------------------------------------------
 
@@ -1012,7 +895,7 @@ Project Github: [https://github.com/jus-mer](https://github.com/jus-mer)
 
 </br>
 
-August 2026 - University of Chile 
+September 2026 - University of Chile 
 
 
 :::
