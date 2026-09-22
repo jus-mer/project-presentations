@@ -6,11 +6,11 @@
 <script src="irc-presentation_files/libs/quarto-html/tippy.umd.min.js"></script>
 <link href="irc-presentation_files/libs/quarto-html/tippy.css" rel="stylesheet">
 <link href="irc-presentation_files/libs/quarto-html/light-border.css" rel="stylesheet">
-<link href="irc-presentation_files/libs/quarto-html/quarto-syntax-highlighting-ea385d0e468b0dd5ea5bf0780b1290d9.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="irc-presentation_files/libs/quarto-html/quarto-syntax-highlighting-7b89279ff1a6dce999919e0e67d4d9ec.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="irc-presentation_files/libs/quarto-contrib/glightbox/glightbox.min.js"></script>
 <link href="irc-presentation_files/libs/quarto-contrib/glightbox/glightbox.min.css" rel="stylesheet">
 <link href="irc-presentation_files/libs/quarto-contrib/glightbox/lightbox.css" rel="stylesheet"><meta charset="utf-8">
-  <meta name="generator" content="quarto-1.7.33">
+  <meta name="generator" content="quarto-1.8.25">
 
   <title>irc-presentation</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
@@ -31,7 +31,7 @@
       vertical-align: middle;
     }
   </style>
-  <link rel="stylesheet" href="irc-presentation_files/libs/revealjs/dist/theme/quarto-782f1f194048d2a035d3c74332e51f4a.css">
+  <link rel="stylesheet" href="irc-presentation_files/libs/revealjs/dist/theme/quarto-ad62115e0d368547511d7fe387e9725d.css">
   <link href="irc-presentation_files/libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
   <link href="irc-presentation_files/libs/revealjs/plugin/reveal-menu/menu.css" rel="stylesheet">
   <link href="irc-presentation_files/libs/revealjs/plugin/reveal-menu/quarto-menu.css" rel="stylesheet">
@@ -573,8 +573,6 @@
 <p>but <strong>we still don’t know what</strong> beliefs predominate among people, and which ones are most representative at the population level</p>
 <p>So, to find that out, I plan to use Latent Class Analysis, a method that allows us to observe the heterogen<em>é</em>ity of beliefs in the population by classifying subgroups</p>
 <p>By “heterogen<em>é</em>ity,” I also mean differences in beliefs regarding the number of groups that can be identified and the size of each group in the population</p>
-<p>Now I want to present you the preliminary results of the latent class estimation</p>
-<p>I’m going to read this part so that it can be understood as clearly as possible</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;
@@ -599,12 +597,29 @@
 </ul>
 <p><br> <br> <br> <br></p>
 <p>Collins, L., &amp; Lanza, S. (2010). <em>Latent class and latent transition analysis: With applications in the social behavioral, and health sciences</em>. London: Wiley.</p>
+<aside class="notes">
+<p>So, using this method, we can identify two main parameters:</p>
+<p>F<strong>e</strong>rst, the conditional probability of response for individuals within each class. This parameter allows us to provide a substantive interpretation of each latent group.</p>
+<p>Second, the estimated proportion of the class, which tells us the size of each class within the population.</p>
+<p>This modeling process is carried out using fit indices such as the Akaike Index Criterion, the Bayesian Index Criterion, and entropy, each of which provides information to identify the optimal model</p>
+<p>Now I want to present you the preliminary results of the latent class estimation</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
 </section>
 <section id="section-10" class="slide level2">
 <h2></h2>
 <div class="cell fig-cap-location-bottom" data-layout-align="center">
 <div class="cell-output-display">
-<div id="fig-lca-1" class="quarto-float quarto-figure quarto-figure-center" data-cap-location="bottom" data-fig-align="center">
+<div id="fig-lca-1" class="quarto-float quarto-figure quarto-figure-center" data-fig-align="center" data-cap-location="bottom">
 <figure class="quarto-float quarto-float-fig">
 <div aria-describedby="fig-lca-1-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <img data-src="images/lca-1.png" class="quarto-figure quarto-figure-center" style="width:100.0%">
@@ -620,6 +635,7 @@ Figure&nbsp;1: Conditional probabilities of the 4-class solution. EDUMERCO data 
 <ul>
 <li class="fragment"><span style="color: #961010;">Class 1 Critical Meritocrats</span> (36.2%)</li>
 </ul>
+<p><a href="https://github.com/jus-mer/lca-merit-pensions">Urzúa, T., Castillo, J. C. (2026). Identifying Patterns of Beliefs Based on Merit and Privilege: A Latent Class Analysis Approach. <em>Work in progress</em></a></p>
 </div>
 <aside class="notes">
 <p>So, starting with the f{e}rst class, it combines a low perception of meritocracy with a high perception of the influence of privilege. Its members believe that success does not depend on effort and talent, but rather on factors such as social background and networks. However, at the normative level, they strongly support meritocracy and reject the le<strong>gí</strong>timacy of non-meritocratic advantages, especially those linked to personal connections.</p>
@@ -640,7 +656,7 @@ Figure&nbsp;1: Conditional probabilities of the 4-class solution. EDUMERCO data 
 <h2></h2>
 <div class="cell fig-cap-location-bottom" data-layout-align="center">
 <div class="cell-output-display">
-<div id="fig-lca-2" class="quarto-float quarto-figure quarto-figure-center" data-cap-location="bottom" data-fig-align="center">
+<div id="fig-lca-2" class="quarto-float quarto-figure quarto-figure-center" data-fig-align="center" data-cap-location="bottom">
 <figure class="quarto-float quarto-float-fig">
 <div aria-describedby="fig-lca-2-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <img data-src="images/lca-2.png" class="quarto-figure quarto-figure-center" style="width:100.0%">
@@ -656,9 +672,10 @@ Figure&nbsp;2: Conditional probabilities of the 4-class solution. EDUMERCO data 
 <ul>
 <li class="fragment"><span style="color: #ffbb00;">Class 2: Privilege advocates</span> (36.3%)</li>
 </ul>
+<p><a href="https://github.com/jus-mer/lca-merit-pensions">Urzúa, T., Castillo, J. C. (2026). Identifying Patterns of Beliefs Based on Merit and Privilege: A Latent Class Analysis Approach. <em>Work in progress</em></a></p>
 </div>
 <aside class="notes">
-<p>The second class follows the same descriptive framework as the first, perceiving low levels of meritocratic functions and high levels of non-meritocratic indicators. The main difference lies in the fact that this class accepts that society operates according to norms based on family background and social capital.</p>
+<p>The second class follows the same descriptive framework as the first, perceiving low levels of meritocratic functions and high levels of privilege indicators. The main difference lies in the fact that this class accepts that society operates according to norms based on family background and social capital.</p>
 <p>This class is called Privilege advocates and has a size of 36%, combines a realistic assessment of a stratified society with a normative justification of privilege. Thus, meritocracy is not presented as an alternative to privilege; rather, <strong>the two principles coexist</strong> and are viewed as compatible foundations for the functioning of society.</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
@@ -676,7 +693,7 @@ Figure&nbsp;2: Conditional probabilities of the 4-class solution. EDUMERCO data 
 <h2></h2>
 <div class="cell fig-cap-location-bottom" data-layout-align="center">
 <div class="cell-output-display">
-<div id="fig-lca-3" class="quarto-float quarto-figure quarto-figure-center" data-cap-location="bottom" data-fig-align="center">
+<div id="fig-lca-3" class="quarto-float quarto-figure quarto-figure-center" data-fig-align="center" data-cap-location="bottom">
 <figure class="quarto-float quarto-float-fig">
 <div aria-describedby="fig-lca-3-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <img data-src="images/lca-3.png" class="quarto-figure quarto-figure-center" style="width:100.0%">
@@ -692,9 +709,10 @@ Figure&nbsp;3: Conditional probabilities of the 4-class solution. EDUMERCO data 
 <ul>
 <li class="fragment"><span style="color: #1e358a;">Class 3 Universal rewards</span> (20.7%)</li>
 </ul>
+<p><a href="https://github.com/jus-mer/lca-merit-pensions">Urzúa, T., Castillo, J. C. (2026). Identifying Patterns of Beliefs Based on Merit and Privilege: A Latent Class Analysis Approach. <em>Work in progress</em></a></p>
 </div>
 <aside class="notes">
-<p>Now, as we can see, people in the th<strong>e</strong>rd group recognize both meritocratic and non-meritocratic elements in society, which sets them apart from the previous two groups. And normatively, they strongly endorse meritocracy, while taking a more ambivalent stance toward privilege, but they still show support for non-meritocracy</p>
+<p>Now, as we can see, people in the th<strong>e</strong>rd group recognize both meritocratic and privilege elements in society, which sets them apart from the previous two groups. And normatively, they strongly endorse meritocracy, while taking a more ambivalent stance toward privilege, but they still show support for non-meritocracy</p>
 <ul>
 <li>This class is called Universal rewards and has a size of 21%. This profile reflects a belief system in which merit and privilege operate simultaneously. They strongly support meritocracy, though they hold an ambivalent stance toward privilege: they view it as less legitimate than other groups do, but they <strong>do not reject it entirely</strong>, considering the system to be partially meritocratic and acceptable.</li>
 </ul>
@@ -714,7 +732,7 @@ Figure&nbsp;3: Conditional probabilities of the 4-class solution. EDUMERCO data 
 <h2></h2>
 <div class="cell fig-cap-location-bottom" data-layout-align="center">
 <div class="cell-output-display">
-<div id="fig-lca-4" class="quarto-float quarto-figure quarto-figure-center" data-cap-location="bottom" data-fig-align="center">
+<div id="fig-lca-4" class="quarto-float quarto-figure quarto-figure-center" data-fig-align="center" data-cap-location="bottom">
 <figure class="quarto-float quarto-float-fig">
 <div aria-describedby="fig-lca-4-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <img data-src="images/lca-4.png" class="quarto-figure quarto-figure-center" style="width:100.0%">
@@ -726,15 +744,15 @@ Figure&nbsp;4: Conditional probabilities of the 4-class solution. EDUMERCO data 
 </div>
 </div>
 </div>
-<div style="font-size: 24px;">
+<div style="font-size: 18px;">
 <ul>
 <li class="fragment"><span style="color: #78c99a; font-size: 18px;">Class 4 Against privilege</span> (6.8%)</li>
 </ul>
+<p><a href="https://github.com/jus-mer/lca-merit-pensions">Urzúa, T., Castillo, J. C. (2026). Identifying Patterns of Beliefs Based on Merit and Privilege: A Latent Class Analysis Approach. <em>Work in progress</em></a></p>
 </div>
 <aside class="notes">
-<p>Finally, the fourth class is the smallest with only a 6% and is characterized by a low perception of meritocracy and a low perception of the influence of privilege, specially the rich parents item. Well, the most significant aspect of this group is that it does not perceive privilege as a factor in the distribution of resources in society, nor does it believe that it should be. Based on that, the name of this class is Against privilege</p>
+<p>Finally, the fourth class is the smallest with only a 7% and is characterized by a low perception of meritocracy and a low perception of the influence of privilege, specially the rich parents item. Well, the most significant aspect of this group is that it does not perceive privilege as a factor in the distribution of resources in society, nor does it believe that it should be. Based on that, the name of this class is Against privilege</p>
 <p>Now, the next steps are to study the relationship between these classes and market justice in education based on regression models</p>
-<p>I plan to have a first draft of the thesis by the end of this year, and to complete it during the first semester of next year, as I will be on a research fellowship at the University of Konstanz in a project that is part of the Politics of Inequality Cluster.</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;
@@ -761,7 +779,7 @@ Figure&nbsp;4: Conditional probabilities of the 4-class solution. EDUMERCO data 
 <section id="pilot-survey" class="slide level2">
 <h2>Pilot survey</h2>
 <iframe src="images/survey.html" width="100%" height="800" frameborder="0" style="border: none; background: #ffffff; opacity: 1; filter: none; mix-blend-mode: normal;"></iframe>
-<p>-&gt; link to pre-pilot survey (allows translation in chrome): <a href="https://jus-mer-pre-piloto-v1.hf.space/">https://jus-mer-pre-piloto-v1.hf.space/</a></p>
+<p>-&gt; link to pre-pilot survey (allows translation in chrome): <a href="https://jus-mer-pre-piloto-v2.share.connect.posit.cloud">https://jus-mer-pre-piloto-v2.share.connect.posit.cloud</a></p>
 </section>
 <section id="attributes-and-levels" class="slide level2">
 <h2>Attributes and levels</h2>
@@ -1173,7 +1191,7 @@ Male
         margin: 0.1,
 
         math: {
-          mathjax: 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.9/MathJax.js',
+          mathjax: 'https://cdn.jsdelivr.net/npm/mathjax@2.7.9/MathJax.js',
           config: 'TeX-AMS_HTML-full',
           tex2jax: {
             inlineMath: [['\\(','\\)']],
@@ -1285,13 +1303,14 @@ Male
           e.clearSelection();
         }
         const getTextToCopy = function(trigger) {
-            const codeEl = trigger.previousElementSibling.cloneNode(true);
-            for (const childEl of codeEl.children) {
-              if (isCodeAnnotation(childEl)) {
-                childEl.remove();
-              }
+          const outerScaffold = trigger.parentElement.cloneNode(true);
+          const codeEl = outerScaffold.querySelector('code');
+          for (const childEl of codeEl.children) {
+            if (isCodeAnnotation(childEl)) {
+              childEl.remove();
             }
-            return codeEl.innerText;
+          }
+          return codeEl.innerText;
         }
         const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
           text: getTextToCopy

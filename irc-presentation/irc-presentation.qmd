@@ -535,10 +535,6 @@ but **we still don't know what** beliefs predominate among people, and which one
 So, to find that out, I plan to use Latent Class Analysis, a method that allows us to observe the heterogen*é*ity of beliefs in the population by classifying subgroups
 
 By “heterogen*é*ity,” I also mean differences in beliefs regarding the number of groups that can be identified and the size of each group in the population
-
-Now I want to present you the preliminary results of the latent class estimation
-
-I'm going to read this part so that it can be understood as clearly as possible
 :::
 
 ## LCA estimation
@@ -558,10 +554,18 @@ I'm going to read this part so that it can be understood as clearly as possible
 Collins, L., & Lanza, S. (2010). _Latent class and latent transition analysis: With applications in the social behavioral, and health sciences_. London: Wiley.
 
 
+:::{.notes}
 
+So, using this method, we can identify two main parameters:
 
+F**e**rst, the conditional probability of response for individuals within each class. This parameter allows us to provide a substantive interpretation of each latent group.
 
+Second, the estimated proportion of the class, which tells us the size of each class within the population.
 
+This modeling process is carried out using fit indices such as the Akaike Index Criterion, the Bayesian Index Criterion, and entropy, each of which provides information to identify the optimal model
+
+Now I want to present you the preliminary results of the latent class estimation
+:::
 
 ## 
 
@@ -578,6 +582,8 @@ knitr::include_graphics("images/lca-1.png")
 
 :::{style="font-size: 18px;"}
 - [Class 1 Critical Meritocrats]{style="color: #961010;"} (36.2%)
+
+[Urzúa, T., Castillo, J. C. (2026). Identifying Patterns of Beliefs Based on Merit and Privilege: A Latent Class Analysis Approach. *Work in progress*](https://github.com/jus-mer/lca-merit-pensions)
 :::
 
 :::
@@ -605,13 +611,15 @@ knitr::include_graphics("images/lca-2.png")
 
 :::{style="font-size: 18px;"}
 - [Class 2: Privilege advocates]{style="color: #ffbb00;"} (36.3%)
+
+[Urzúa, T., Castillo, J. C. (2026). Identifying Patterns of Beliefs Based on Merit and Privilege: A Latent Class Analysis Approach. *Work in progress*](https://github.com/jus-mer/lca-merit-pensions)
 :::
 :::
 
 
 :::{.notes}
 
-The second class follows the same descriptive framework as the first, perceiving low levels of meritocratic functions and high levels of non-meritocratic indicators. The main difference lies in the fact that this class accepts that society operates according to norms based on family background and social capital.
+The second class follows the same descriptive framework as the first, perceiving low levels of meritocratic functions and high levels of privilege indicators. The main difference lies in the fact that this class accepts that society operates according to norms based on family background and social capital.
 
 This class is called Privilege advocates and has a size of 36%, combines a realistic assessment of a stratified society with a normative justification of privilege. Thus, meritocracy is not presented as an alternative to privilege; rather, **the two principles coexist** and are viewed as compatible foundations for the functioning of society.
 
@@ -634,12 +642,13 @@ knitr::include_graphics("images/lca-3.png")
 :::{style="font-size: 18px;"}
 - [Class 3 Universal rewards]{style="color: #1e358a;"} (20.7%)
 
+[Urzúa, T., Castillo, J. C. (2026). Identifying Patterns of Beliefs Based on Merit and Privilege: A Latent Class Analysis Approach. *Work in progress*](https://github.com/jus-mer/lca-merit-pensions)
 :::
 :::
 
 :::{.notes}
 
-Now, as we can see, people in the th**e**rd group recognize both meritocratic and non-meritocratic elements in society, which sets them apart from the previous two groups. And  normatively, they strongly endorse meritocracy, while taking a more ambivalent stance toward privilege, but they still show support for non-meritocracy
+Now, as we can see, people in the th**e**rd group recognize both meritocratic and privilege elements in society, which sets them apart from the previous two groups. And  normatively, they strongly endorse meritocracy, while taking a more ambivalent stance toward privilege, but they still show support for non-meritocracy
 
 - This class is called Universal rewards and has a size of 21%. This profile reflects a belief system in which merit and privilege operate simultaneously. They strongly support meritocracy, though they hold an ambivalent stance toward privilege: they view it as less legitimate than other groups do, but they **do not reject it entirely**, considering the system to be partially meritocratic and acceptable.
 
@@ -659,19 +668,18 @@ Now, as we can see, people in the th**e**rd group recognize both meritocratic an
 knitr::include_graphics("images/lca-4.png")
 ```
 
-:::{style="font-size: 24px;"}
-  - [Class 4 Against privilege]{style="color: #78c99a; font-size: 18px;"} (6.8%)
-:::
+:::{style="font-size: 18px;"}
+- [Class 4 Against privilege]{style="color: #78c99a; font-size: 18px;"} (6.8%)
 
+[Urzúa, T., Castillo, J. C. (2026). Identifying Patterns of Beliefs Based on Merit and Privilege: A Latent Class Analysis Approach. *Work in progress*](https://github.com/jus-mer/lca-merit-pensions)
+:::
 :::
 
 :::{.notes}
 
-Finally, the fourth class is the smallest with only a 6% and is characterized by a low perception of meritocracy and a low perception of the influence of privilege, specially the rich parents item. Well, the most significant aspect of this group is that it does not perceive privilege as a factor in the distribution of resources in society, nor does it believe that it should be. Based on that, the name of this class is Against privilege
+Finally, the fourth class is the smallest with only a 7% and is characterized by a low perception of meritocracy and a low perception of the influence of privilege, specially the rich parents item. Well, the most significant aspect of this group is that it does not perceive privilege as a factor in the distribution of resources in society, nor does it believe that it should be. Based on that, the name of this class is Against privilege
 
 Now, the next steps are to study the relationship between these classes and market justice in education based on regression models
-
-I plan to have a first draft of the thesis by the end of this year, and to complete it during the first semester of next year, as I will be on a research fellowship at the University of Konstanz in a project that is part of the Politics of Inequality Cluster.
 :::
 
 ## Conjoint survey experiment
@@ -696,7 +704,7 @@ Gilgen, S., & Zangger, C. (2025). From principles to practice: Distributive just
 <iframe src="images/survey.html" width="100%" height="800" frameborder="0" style="border: none; background: #ffffff; opacity: 1; filter: none; mix-blend-mode: normal;"></iframe>
 ```
 
--> link to pre-pilot survey (allows translation in chrome): [https://jus-mer-pre-piloto-v1.hf.space/](https://jus-mer-pre-piloto-v1.hf.space/)
+-> link to pre-pilot survey (allows translation in chrome): [https://jus-mer-pre-piloto-v2.share.connect.posit.cloud](https://jus-mer-pre-piloto-v2.share.connect.posit.cloud)
 
 ## Attributes and levels
 
