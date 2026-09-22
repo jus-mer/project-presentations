@@ -80,16 +80,20 @@ rm(list = ls())
 
 <br>
 
-# Conceptualizing and measuring meritocracy {style="font-size:21px; text-align:right; line-height:1.1;"}
+### **Conceptualizing and measuring meritocracy** {style="font-size:45px; text-align:right; line-height:1.1;"}
 
 ### **Background, developments and extensions** {style="font-size:35px; text-align:right; line-height:1.1; margin-top:12px;"}
 
 ------------------------------------------------------------------------
 
 </br>
-**Juan Carlos Castillo**
 
+::: {style="font-size: 32px; text-align:right; line-height:0.8;"}
+
+**Juan Carlos Castillo** <br>
 **Tomás Urzúa**
+
+:::
 
 ::: {.blue2 .medium style="line-height:0.4; margin-top:0; margin-bottom:0;"}
 
@@ -99,8 +103,13 @@ rm(list = ls())
 
 </br>
 
-September 2026 - Online presentation for the EDUMERIT ERC Project, Tallin University.
+::: {style="font-size: 25px; text-align:right; line-height:0.8;"}
 
+Online presentation for the EDUMERIT ERC Project <br>
+Tallin University <br>
+September 2026 <br>
+
+:::
 
 :::
 :::
@@ -109,19 +118,19 @@ September 2026 - Online presentation for the EDUMERIT ERC Project, Tallin Univer
 
 # 1. Background {background-color="#491106ff"}
 
-## Project grant 1 
+## Project grant 1 (2016-2020)
 
 <br>
 
 ::: {.columns}
 
-::: {.column width="40%" style="vertical-align: middle;"}
+::: {.column style="width:40%; vertical-align: middle;"}
 
-![](https://jc-castillo.com/proyectos/posts/fondecyt-economiamoral/featured.jpg){width='80%'}
+![](https://jc-castillo.com/proyectos/posts/fondecyt-economiamoral/featured.jpg){style="display:block; width:80%; margin:0 auto;"}
 
 :::
 
-::: {.column width="60%" style="vertical-align: middle;"}
+::: {.column style="width:60%; vertical-align: middle;"}
 
 ### The moral economy of inequality and redistributive preferences (2016-2020) - FONDECYT N°1160161
 
@@ -130,19 +139,19 @@ September 2026 - Online presentation for the EDUMERIT ERC Project, Tallin Univer
 :::
 :::
 
-## Project grant2
+## Project grant2 (2021-2024)
 
 <br>
 
 ::: {.columns}
 
-::: {.column width="40%" style="vertical-align: middle;"}
+::: {.column style="width:40%; vertical-align: middle;"}
 
-![](https://jc-castillo.com/proyectos/posts/fondecyt-edumer/featured.png){width='80%'}
+![](https://jc-castillo.com/proyectos/posts/fondecyt-edumer/featured.png){style="display:block; width:80%; margin:0 auto;"}
 
 :::
 
-::: {.column width="60%" style="vertical-align: middle;"}
+::: {.column style="width:60%; vertical-align: middle;"}
 
 ### EDUMER: Meritocracy in Schools - Moral Foundations of the Educational Market and its Implications for Civic Education in Chile (2021-2024) - FONDECYT N°1210847
 
@@ -152,23 +161,25 @@ September 2026 - Online presentation for the EDUMERIT ERC Project, Tallin Univer
 :::
 
 
-## Project grant 3 
-
-<br>
+## Project grant 3 (2025-2029)  
 
 ::: {.columns}
 
-::: {.column width="40%" style="vertical-align: middle;"}
+::: {.column style="width:40%; vertical-align: middle;"}
 
-![](images/jusmer-logo-vert.png){width='60%'}
+![](images/jusmer-logo-vert.png){style="display:block; width:60%; margin:0 auto;"}
+
+[[**jus-mer.com**]{style="color: white; text-decoration: none;"}](https://jus-mer.com){style="display:block; width:60%; margin:10px auto 0 auto; background-color:#882B2B; padding:5px; border-radius:5px; text-align:center;"}
 
 :::
 
-::: {.column width="60%" style="vertical-align: middle;"}
+::: {.column style="width:60%; vertical-align: middle;"}
 
 ### JUSMER: Market Justice and Deservingness of Social Welfare (2025-2029) - FONDECYT N°1250518
 
 - Objective: *Analyze market justice preferences in Chile, their evolution over time, and their relation to welfare deservingness*
+
+<br>
 
 :::
 :::
@@ -422,15 +433,15 @@ So, with this we find that factors that seems contradictory can actually coexist
 
 ![](images/merit_scale_school.png){width="100%"}
 
-##
+## Longitudinal invariance
 
 
 ![](https://educacion-meritocracia.github.io/merit-factorial/presentations/JornadasUDP_2025/images/long_inv.png)
 
 
-## 
+## Longitudinal invariance
 
-![](images/cohort-invariance.png)
+![](images/longitudinal-merit-factorial.png)
 
 
 
@@ -684,19 +695,27 @@ Now, the next steps are to study the relationship between these classes and mark
 
 ## Conjoint survey experiment
 
-- Estimate the relative weight of different deservingness criteria for allocating public goods in Chile
+- Estimate the relative weight of different deservingness criteria  (Knotz et al 2022; Meuleman et al 2020; van Oorschot, 2000) for allocating public goods in Chile
 
 - Study the association between meritocratic beliefs and deservingness criteria
 
-- Current study: conjoint-allocation survey experiment (inspired by Gilgen & Zangger, 2025) to be fielded in 2026
+- Current study: conjoint-allocation survey experiment (inspired by Gilgen & Zangger, 2025) to be fielded this year 2026. Programmed in **`surveydown` (R)**.
 
-- Stage: pre-pilot (this week)
- 
+
 <br>
-<br>
-<br>
+
+
+::: {style="font-size: 18px;"}
 
 Gilgen, S., & Zangger, C. (2025). From principles to practice: Distributive justice and the role of perceived inequality in reward allocation. _Frontiers in Sociology_, 10, 1660806. https://doi.org/10.3389/fsoc.2025.1660806
+
+Knotz, C. M., Gandenberger, M. K., Fossati, F., & Bonoli, G. (2022). A Recast Framework for Welfare Deservingness Perceptions. Social Indicators Research, 159(3), 927–943. https://doi.org/10.1007/s11205-021-02774-9
+
+Meuleman, B., Roosma, F., & Abts, K. (2020). Welfare deservingness opinions from heuristic to measurable concept: The CARIN deservingness principles scale. Social Science Research, 85, 102352. https://doi.org/10.1016/j.ssresearch.2019.102352
+
+Oorschot, W. V. (2000). Who should get what, and why? On deservingness criteria and the conditionality of solidarity among the public. Policy & Politics, 28(1), 33–48. https://doi.org/10.1332/0305573002500811
+
+:::
 
 ## Pilot survey
 
